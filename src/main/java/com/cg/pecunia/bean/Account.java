@@ -2,7 +2,7 @@ package com.cg.pecunia.bean;
 
 public class Account {
 	
-	private long accountNumber;
+	private int accountNumber;
 	private String accountName;
 	private long conactNumber;
 	private String address;
@@ -17,10 +17,10 @@ public class Account {
 	public Account() {
 		super();
 	}
-	public long getAccountNumber() {
+	public int getAccountNumber() {
 		return accountNumber;
 	}
-	public void setAccountNumber(long accountNumber) {
+	public void setAccountNumber(int accountNumber) {
 		this.accountNumber = accountNumber;
 	}
 	public String getAccountName() {
