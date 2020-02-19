@@ -2,7 +2,6 @@ package com.cg.pecunia.dao;
 
 import java.util.ArrayList;
 
-import com.cg.pecunia.bean.Account;
 import com.cg.pecunia.bean.Loan;
 import com.cg.pecunia.exception.AccountExcepetion;
 
